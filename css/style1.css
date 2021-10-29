@@ -35,3 +35,13 @@
 *{
   box-sizing: border-box;
 }
+.rowleft{
+  display: inline-block;
+  width: 20%;
+  background-color:yellow;
+}
+.rowright{
+  display: inline-block;
+  width: 78%;
+  background-color:green;
+}

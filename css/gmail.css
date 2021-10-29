@@ -1,0 +1,49 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body{
+  background-image:url(/img/legno.jpg);
+  background-size: cover;
+}
+.container{
+  width: 1000px;
+  margin: auto;
+}
+#logogmail{
+  width: 100px;
+  margin-top: 10px;
+}
+.title{
+  color:white;
+  font-size: 27px;
+}
+#number{
+border-radius: 50%;
+background-color: orange;
+}
+.row {
+  border-bottom: 1px solid black;
+}
+.rowgray{
+  background-color: lightgray;
+
+}
+.rowleft{
+  width: 40%;
+  display: inline-block;
+}
+.rowright{
+  width: 58%;
+  color: gray;
+}
+.rowwhite{
+  background-color: white;
+}
+.footer{
+  color: #fff;
+  text-align: center;
+
+}
+.fine{
+  display: inline-block;
+}
