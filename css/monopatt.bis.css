@@ -1,0 +1,54 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+}
+.contain{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 70vw;
+  margin: auto;
+  border-radius: 10px;
+  padding: 30px;
+}
+.content{
+
+}
+.header img{
+  width: 200px;
+  padding-top: 30px;
+}
+.header h1{
+  color: lime;
+}
+.header{
+  text-align: center;
+  padding-top: 20px;
+}
+.nav_button{
+  background-color: lime;
+  text-align: center;
+  width:100%;
+  padding: 5px;
+  margin: auto;
+}.address{
+  color:#fff;
+  margin-top: 10px;
+}
+.address input,.address h2{
+display: inline-block;;
+}
+.color{
+  background-color: pink;
+  height: 20px;
+}
+.medium{
+  width: 200px;
+}
+.big{
+  width: 300px;
+}
+.small{
+  width: 100px;
+}

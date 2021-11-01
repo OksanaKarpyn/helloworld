@@ -1,0 +1,61 @@
+*{
+box-sizing: border-box;
+}
+body{
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+
+}
+.wrapper{
+  background-color: rgba(0,0,0,0.5);
+  width: 70vw;
+  margin: 30px auto;
+  padding: 60px;
+}
+.logo_container img{
+width: 200px;
+}
+.logo_container h1{
+  color: lime;
+  font-size: 25px;
+}
+.logo_container{
+  text-align: center;
+}
+.navigation{
+  background-color: lime;
+  text-align: center;
+  padding: 10px;
+}
+.main_container{
+
+}
+.section{
+color: #fff;
+margin-top: 15px;
+}
+.section input,.section h2{
+  display: inline-block;
+}
+.section h2{
+  margin: 0px;
+}
+.section p{
+  margin: 0;
+}
+.loader{
+  height: 15px;
+
+}
+.loader.big{
+width: 300px;
+background-color:lime;
+}
+.loader.medium{
+width: 250px;
+background-color: orange;
+}
+.loader.small{
+width: 100px;
+background-color: purple;
+}

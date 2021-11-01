@@ -1,0 +1,25 @@
+*{
+  box-sizing:border-box;
+}
+.container{
+  position:relative;
+  background-color: lightgreen;
+  border: 2px solid brown;
+}
+.square{
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.green{
+  background-color: green;
+  position: absolute;
+  left:30px;
+  bottom:30px;
+}
