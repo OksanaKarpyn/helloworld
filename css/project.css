@@ -21,26 +21,33 @@ a {
 h2, h1{
   font-family: cursive;
 }
+.menu{
+  color: gray;
+}
+.menu h2{
+  color: black;
+}
 .containers {
   background-color: #fff;
   width: 1000px;
+  margin: auto;
 }
 
-.container_1, .container_2, .container_3, .container_4, .container_5 {
-  border-bottom: 1px solid gray;
+.container_1, .container_2, .container_3, .container_4, .container_5, .container_6 {
+  border-bottom: 0.5px solid lightgray;
   display: flex;
   height: 200px;
 }
 
 .architecht {
-  border-right: 1px solid gray;
+  border-right: 0.5px solid lighgray;
   width: 20%;
   /* background-color: pink; */
   padding: 30px;
   flex-grow: 1;
 }
 .project {
-  border-right: 1px solid gray;
+  border-right: 0.5px solid lightgray;
   width: 40%;
   /* background-color: yellow; */
   display: flex;
@@ -80,7 +87,7 @@ h2, h1{
   background-color: pink;
 }
 
-.dining_table {
+.dining_table, .harbour_tables, .sushi_lamps, .tune_sofa {
   width: 20%;
   padding: 20px;
   display: flex;
@@ -90,7 +97,6 @@ h2, h1{
 
 .menu {
   font-size: 15px;
-  color: gray;
 }
 
 .menu h2 {
@@ -104,21 +110,22 @@ h2, h1{
 }
 
 .vuoto_2, .vuoto_4 {
-  border-left: 1px solid gray;
+  border-left: 0.5px solid lightgray;
 }
 
 .plinth_sinks {
   width: 20%;
   padding: 20px;
-  border-left: 1px solid gray;
+  border-left: 0.5px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .img_3 {
   width: 40%;
   background-color: lightblue;
-}
-.plinth_sinks{
-
 }
 .img_4 {
   width: 40%;
@@ -129,9 +136,9 @@ h2, h1{
   padding: 20px;
 }
 
-.empty_bis {
+.empty_5 {
   width: 20%;
-  border-right: 1px solid gray;
+  border-right: 0.5px solid lightgray;
 }
 
 .img_5 {
@@ -139,7 +146,12 @@ h2, h1{
   background-color: orange;
 }
 
-.sushi_lamps {
+.img_6{
+  width: 40%;
+  background-color: beige;
+}
+.empty_6{
   width: 20%;
-  padding: 20px;
+  border-top: 0.5px solid lightgray;
+  border-left: 0.5px solid lightgray;
 }
