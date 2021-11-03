@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.containers {
+  background-color: #fff;
+}
+
+.header, .main, .footer {
+  height: 200px;
+  display: flex;
+}
+
+.cube_1 {
+  width: 20%;
+  border: 0.5px solid lightgray;
+}
+
+.cube_2 {
+  width: 30%;
+  flex-grow: 1;
+  border: 0.5px solid lightgray;
+}
+
+.titles, .title, .nav {
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.flex_items {
+  padding: 10px;
+  flex-direction: row;
+}
+.note{
+  font-size: 10px;
+}
+.img {
+  background-image: url("/img/legno.jpg");
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.title>h2, p {
+  margin: 0px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Frederik>h4 {
+  margin: 0px;
+}
+
+.previous, .paragraf {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.paragraf {
+  padding-right: 20px;
+}
+
+.next {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+
+.next>p {
+  text-align: right;
+  margin-right: 0px;
+}
+#color{
+  color:gray;
+}
