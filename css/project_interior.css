@@ -31,7 +31,7 @@ a {
   border: 0.5px solid lightgray;
 }
 
-.titles, .title, .nav {
+.titles, .title_1, .title, .nav {
   padding: 20px;
 }
 
@@ -57,9 +57,14 @@ a {
   background-image: url("/img/legno.jpg");
 }
 
+.title_1>h2{
+  margin: 0px;
+}
+
 .title {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 .title>h2, p {
