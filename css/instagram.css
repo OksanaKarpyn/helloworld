@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+.containers {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icone {
+  height: 20%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#profile {
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.instagram {
+  height: 50px;
+  background-image: url("/img/instagram.png");
+  width: 50px;
+  background-size: cover;
+}
+
+.nav {
+  margin: auto;
+}
+
+.img_follow {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.img_oksana {
+  margin: 50%;
+}
+
+.followers>h4, .followers>p, .following>h4, .following>p {
+  margin: 0;
+}
+
+.name {
+  text-align: center;
+}
+
+.name>h1 {
+  font-size: 35px;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.name>p {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.information {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact, .profile {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10%;
+  width: 200px;
+}
+
+.main {
+  margin-bottom: 60px;
+}
+
+.hobby {
+overflow-y: hidden;
+height: 120px;
+overflow-x: scroll;
+}
+
+.hobby .wrapper{
+  display: flex;
+}
+
+.img_traver {
+  width: 100px;
+  height: 100px;
+  background-image: url("/img/piseli.jpg");
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px dashed red;
+}
+
+.traver {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-left: 10px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+.grid{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+.grid_item{
+  height: 200px;
+  background-color: green;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.footer{
+position: fixed;
+width: 100%;
+height: 60px;
+background-color: pink;
+bottom: 0;
+left: 0;
+}
+.flex_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.footer_item{
+height: 20%;
+}
