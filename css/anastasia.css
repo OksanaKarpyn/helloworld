@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  padding: 10px;
+}
+
+.contain {
+  background-color: #fff;
+  height: 1000px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+}
+
+.principal_contain {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile_title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 20%;
+  padding: 30px;
+}
+
+/* .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+.wallet, .setting, .bank {
+  padding-top: 50px;
+  height: 30%;
+}
+
+.nome_title {
+  display: flex;
+  flex-direction: row;
+}
+
+.nome {
+  margin-left: 10px
+}
+
+.img_profil {
+  background-image: url("/img/gmail.png");
+  background-size: cover;
+  border-radius: 50%;
+  width: 100px;
+}
+
+.wallet, .setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bank {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 50px
+}
+
+.economy_title {
+  background-color: lightgray;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.my_card, .moviments, .payments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 200px;
+}
+
+.carta_red, .carta_green, .carta_blue, .carta_viola {
+  padding: 10px;
+  width: 40%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 12px;
+}
+
+.carta_titolo, .carta_fino_a {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item {
+  margin-bottom: 10px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icone {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_item {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.img_cofix {
+  background-color: red;
+}
+
+.img_uovo {
+  background-color: pink;
+}
+
+.img_metro {
+  background-color: green;
+}
+
+.img_tiket {
+  background-color: lightblue;
+}
+
+.img_mcdonald {
+  background-color: yellow;
+}
+
+.box_contain {
+  width: 100%;
+  display: flex;
+  overflow-y: hidden;
+  height: 200px;
+  overflow-x: scroll;
+}
+
+.casa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  height: 150px;
+  width: 200px;
+  margin-left: 10px;
+  border-radius: 10%;
+}
+
+.img_casa {
+  width: 30px;
+  height: 30px;
+  background-color: purple;
+  border-radius: 50%;
+}
+
+.saldo>h5 {
+  margin: 0;
+}
+ .money{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 30px;
+   height: 70%;
+   margin: 30px;
+   background-color: #fff;
+   border-radius: 5%;
+ }
+ .title_balance{
+   width: 30%;
+   background-color: #fff;
+ }
+ .img_balance{
+   height: 30%;
+   background-color: lightblue;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+ }
+ .impostazioni_imposte{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ .spese>h4, .limite_imposto>h4{
+  margin: 0;
+ }
+.boxes{
+  padding: 20px;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.divertimento{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.operazioni>p{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.publicita{
+  height: 20%;
+  background-color: orange;
+  margin: 30px;
+  border-radius: 10%;
+}
+
+.publicita>h4{
+  padding: 30px;
+}
