@@ -32,5 +32,6 @@ document.getElementById('prova').innerHTML = 'vive in Ucraina';//non si usa #
 let a = document.querySelector('#prova');
 //2
 let b;
-b = document.getElementById('paragraf');
+b = document.querySelector('.paragraf');
 a.innerHTML = 9;
+b.innerHTML = 'adesso è al lavoro';
