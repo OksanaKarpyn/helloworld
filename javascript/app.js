@@ -1,22 +1,36 @@
-console.log('first output');
-console.log('first ',' ouput');
-console.log("ciao ',' mamma ");
+console.log('hello');
+console.log('mondo');
+console.log('1992');
+console.log(1992);
+console.log('hello' + ' ' + 'mondo');//concatenare string
+console.log('hello ' + 'mondo');
+console.log('hello' + ' mondo');
+console.log('hello' + 'mondo');
 
-console.log('ciao1 \':\' mamma1');
-console.log("ciao 2',' mamma2 ");
-console.log("ciao 3\":\" mamma 3");
-console.log(2 + 3);
-console.log('hello wrld');
-var age = 29;
-console.log(age);
-var name = 'oksana';
-name = 'roma';
-console.log(name, ' ha ', age, ' anni');//variabile separata num string
-console.log(name + ' ha '+ age + ' anni');// variabile unita stringa
-console.clear();
-if (age > 50){
-    console.log('tu sei piu vecchio di 40')
-} else{
-    console.log('tu sei piu giovane di  50')
-}
+console.info('hello');//cntl+ l dovrb.comnt
+//alert('ciao');
+document.getElementById('out').innerHTML = '555 piace';
+document.getElementById('out').innerHTML = 'lidiya 1993';
+document.getElementById('out').innerHTML = '<b>lidiya 1993</b>';
 
+document.querySelector('.live').innerHTML = 'vive in italia';
+document.querySelector('.paragraf').innerHTML = 'lorem lidia vive a Malta';
+
+document.querySelector('.live').innerHTML = 11;
+document.querySelector('#prova').innerHTML = 'vive in ucraina';//si usa #
+
+document.getElementById('prova').innerHTML = 'vive in Ucraina';//non si usa #
+
+//doccument.querySelector('.,#'),document.getElementById(''), sono elemeti che vanno messi dento scatola
+//let  a; //let é scatola,a é nome della scatola
+
+
+//let a = document.getElementsByClassName('paragraf');
+//let a = document.querySelector('.paragraf');
+//due modi di scrittura
+//1
+let a = document.querySelector('#prova');
+//2
+let b;
+b = document.getElementById('paragraf');
+a.innerHTML = 9;
