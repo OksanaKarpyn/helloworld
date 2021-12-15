@@ -35,3 +35,24 @@ let b;
 b = document.querySelector('.paragraf');
 a.innerHTML = 9;
 b.innerHTML = 'adesso è al lavoro';
+
+//if,else,swich
+//let c = 4;
+//if (c != 8) {
+//    console.log('é vero');
+//}
+//else {
+//console.log('è falso');
+//}
+
+
+let d = 14;
+if (d == 18) {
+    console.log('benvenuto');
+}
+if (d <= 15) {
+    console.log('fino alle 22:00');
+}
+else {
+    console.log('non puoi entrare');
+}
