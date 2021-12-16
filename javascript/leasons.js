@@ -58,9 +58,13 @@ b.innerHTML = 'adesso è al lavoro';
 
 // && -e, ||-o.
 const button = document.querySelector('button');
-const input = document.querySelector('.age');
-button.onclick = () => {
-    let num = input.value;
+
+document.querySelector('.age').onkeydown = (event) => {
+    if (event.keyCode != 13) {
+        return;
+    }
+
+    let num = +event.currentTarget.value;
     if (num >= 18 && num < 45) {
         console.log('benvenuto');
     }
@@ -107,18 +111,46 @@ document.querySelector('.btn').onclick = () => {
         document.querySelector('#inpt').value
 }
 
-//let input1 = document.querySelector('#inp1_prova').value;//da domandare
+let colorsSelector = document.querySelector('#colors');
 
-document.querySelector('.btn1_prova').onclick = () => {
 
-    console.log(document.querySelector('#inpt1_prova'.value));
-    document.querySelector('.btn1_prova').style.backgroundColor = input1
+colorsSelector.querySelector('.btn1_prova').onclick = (giovanni) => {
+    //let input1 = document.querySelector('#inpt1_prova').value; //da domandare
+    let value = giovanni.currentTarget.previousElementSibling.value;
+
+    // console.log(document.querySelector('#inpt1_prova'.value));
+    //document.querySelector('.btn1_prova').style.backgroundColor = input1
+    giovanni.currentTarget.style.backgroundColor = value;
 }
+
+/*function changeColor(pasquale, idSelector) {
+    debugger;
+    var value = document.getElementById(idSelector).value;
+    document.getElementById(pasquale).style.backgroundColor = value
+
+}*/
 
 
 document.querySelector('#btn_range').onclick = () => {
     console.log(document.querySelector('#inpt_range').value);
-    document.querySelector('#btn_range').onclick =
-        document.querySelector('#inpt_range')
+    //document.querySelector('#btn_range').onclick =
+    document.querySelector('#inpt_range');
 
 }
+document.querySelector('#inpt_range').oninput = () => {
+    console.log(document.querySelector('#inpt_range').value);
+    document.querySelector('.spn_range').innerHTML = document.querySelector('#inpt_range').value
+}
+//ho un problema
+document.querySelector('#btn_check').onclick = () => {
+    console.log(document.querySelector('#inpt_check').value);
+    //x sap se e stat clic o no
+    let mycheck = document.querySelector('#impt_check');
+    console.log(mycheck.checked);
+    if (mycheck.checked) {
+        console.log('pulsante stato premuto');
+    }
+    else {
+        console.log('pulsante no premuto');
+    }
+}//
