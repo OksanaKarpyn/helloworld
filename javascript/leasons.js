@@ -4,8 +4,7 @@ console.log('1992');
 console.log(1992);
 console.log('hello' + ' ' + 'mondo');//concatenare string
 console.log('hello ' + 'mondo');
-console.log('hello' + ' mondo');
-console.log('hello' + 'mondo');
+
 
 console.info('hello');//cntl+ l dovrb.comnt
 //alert('ciao');
@@ -46,13 +45,80 @@ b.innerHTML = 'adesso è al lavoro';
 //}
 
 
-let d = 14;
-if (d == 18) {
-    console.log('benvenuto');
+//let d = 14;
+//if (d == 18) {
+//  console.log('benvenuto');
+//}
+///if (d <= 15) {
+// console.log('fino alle 22:00');
+//}
+//else {
+//  console.log('non puoi entrare');
+//}
+
+// && -e, ||-o.
+const button = document.querySelector('button');
+const input = document.querySelector('.age');
+button.onclick = () => {
+    let num = input.value;
+    if (num >= 18 && num < 45) {
+        console.log('benvenuto');
+    }
+    else if (num >= 50) {
+        console.log('sei sicuro che vuoi entrare?');
+    }
+    else {
+        console.log('non puoi entrare');
+    }
+
+    switch (num) {
+        case 17:
+            console.log('aspetta un anno');
+            break;
+        case 23:
+            console.log('adesso puoi')
+        default:
+            console.log('va bene');
+    }
 }
-if (d <= 15) {
-    console.log('fino alle 22:00');
+
+let d = 8;
+console.log(d != 6 && d > 7);
+
+
+//let sister1 = ['lidiya', 1993, 'november', 09]
+//console.log(sister1);
+//let sister2 = ['romana', 1995, 'june', 18, 'gemelli'];
+//console.log(sister2);
+//lungezza dell array
+//console.log(sister1.length);
+//console.log(sister2.length);
+//console.log(sister2[0, 4]);
+//sister2[1] = 2021;
+//console.log(sister2);
+
+//let numbers = [2, 4, 12];
+//let roots = numbers.map(Math.sqrt);
+//console.log(roots);
+
+document.querySelector('.btn').onclick = () => {
+    console.log(document.querySelector('#inpt').value);
+    document.querySelector('.btn').style.backgroundColor =
+        document.querySelector('#inpt').value
 }
-else {
-    console.log('non puoi entrare');
+
+//let input1 = document.querySelector('#inp1_prova').value;//da domandare
+
+document.querySelector('.btn1_prova').onclick = () => {
+
+    console.log(document.querySelector('#inpt1_prova'.value));
+    document.querySelector('.btn1_prova').style.backgroundColor = input1
+}
+
+
+document.querySelector('#btn_range').onclick = () => {
+    console.log(document.querySelector('#inpt_range').value);
+    document.querySelector('#btn_range').onclick =
+        document.querySelector('#inpt_range')
+
 }
